@@ -1,0 +1,21 @@
+.App {
+  font-family: Helvetica, sans-serif; }
+  .App .tile {
+    width: 100%;
+    height: 100%;
+    display: inline-block; }
+  .App .nasa-tile {
+    text-align: center;
+    background-color: lightblue; }
+    .App .nasa-tile img {
+      max-height: 20em; }
+    .App .nasa-tile .image-text {
+      max-width: 35em;
+      margin: auto;
+      line-height: 1.5em; }
+  .App .guardian-tile {
+    background-color: lightyellow; }
+    .App .guardian-tile ul h2 {
+      text-align: center; }
+    .App .guardian-tile ul li {
+      list-style: none; }
